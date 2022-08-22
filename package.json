@@ -1,0 +1,24 @@
+{
+  "name": "express-wsutils",
+  "version": "1.0.2",
+  "description": "Utilities for express webserver",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mime": "^3.0.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "typescript": "^4.7.4"
+  }
+}
